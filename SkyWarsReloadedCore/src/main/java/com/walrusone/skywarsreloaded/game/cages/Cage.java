@@ -125,7 +125,7 @@ public abstract class Cage {
 
     public void removeSpawnHousing(GameMap gMap) {
         World world = gMap.getCurrentWorld();
-        gMap.setAllowFallDamage(false);
+        gMap.setAllowFallDamage(true);
         new BukkitRunnable() {
             @Override
             public void run() {
